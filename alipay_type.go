@@ -71,7 +71,7 @@ func (this CertDownload) APIName() string {
 
 func (this CertDownload) Params() map[string]string {
 	var m = make(map[string]string)
-	m["app_auth_token"] = this.AppAuthToken
+	//m["app_auth_token"] = this.AppAuthToken
 	return m
 }
 
