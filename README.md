@@ -333,3 +333,5 @@ http.HandleFunc("/alipay", func(rep http.ResponseWriter, req *http.Request) {
 
 ## License
 This project is licensed under the MIT License.
+
+git tag -a v0.0.2 -m "tagging version 0.0.2" && git push origin master --tags
